@@ -1,0 +1,11 @@
+INSERT INTO curso (cod_curso, curso, cantidad, deleted_at) VALUES ('5', 'medio menor', '4', NULL), ('6', 'medio mayor', '5', NULL), ('7', 'playgroup', '4', NULL)
+
+
+INSERT INTO alumnos (cod_alumno, nom_alumno, direccion, telefono, edad, nom_curso, deleted_at) VALUES ('1', 'alumno1', 'dir1', '975661145', '6', 'playgroup', NULL), ('2', 'alumno2', 'dir2', '988554433', '7', 'medio mayor', NULL), ('3', 'alumno3', 'dir3', '944122346', '5', 'medio menor', NULL), ('4', 'alumno4', 'dir4', '9755445566', '7', 'medio mayor', NULL), ('5', 'alumno5', 'dir5', '981767918', '4', 'playgroup', NULL), ('6', 'alumno6', 'dir6', '977671409', '6', 'medio menor', NULL)
+
+
+
+INSERT INTO educadoras (cod_tia, nombre, telefono, cod_curso, deleted_at) VALUES ('1', 'Rosa', '954661123', 'medio menor', NULL), ('2', 'Florencia', '971650562', 'medio menor', NULL), ('3', 'Lorena', '97846655', 'medio mayor', NULL), ('4', 'Glenda', '998109102', 'medio mayor', NULL), ('5', 'Maria', '984871235', 'playgroup', NULL), ('6', 'Fernanda', '981782670', 'playgroup', NULL)
+
+
+INSERT INTO eventos (cod_evento, nom_alumno, asunto, descripcion, deleted_at) VALUES ('1', 'alumno2', 'Anotacion negativa', 'Alumno emite sonidos molestos', NULL), ('2', 'alumno3', 'Anotacion positiva', 'Alumno trae un queque para la convivencia', NULL), ('3', 'alumno4', 'Anotacion negativa', 'Se le pide al alumno que deje de comer en clases, no obedece', NULL), ('4', 'alumno1', 'Anotacion negativa', 'alumno le esconde el estuche a su compañero', NULL)

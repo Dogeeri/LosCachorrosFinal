@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "843417400589",
+    "project_id": "jardin-infantil-auth",
+    "storage_bucket": "jardin-infantil-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843417400589:android:4c8f5201c4a76c2e786c44",
+        "android_client_info": {
+          "package_name": "com.example.trabajo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843417400589-b8ho5984cch5f2vlodrd2o4uvt34veij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trabajo",
+            "certificate_hash": "efe012a2a91d4116c316f6029514f625502fc259"
+          }
+        },
+        {
+          "client_id": "843417400589-g9luumj3femegk083f9vrr8e4i71cemo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcm_zLagJhSq3Er5o83rryayBgLpAOfWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843417400589-g9luumj3femegk083f9vrr8e4i71cemo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
